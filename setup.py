@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 install_requires=['numpy']
-tests_require=['pytest','coveralls']
+tests_require=['pytest','nose','coveralls']
 from setuptools import setup,find_packages
 
 setup(name='PyLivestream',
